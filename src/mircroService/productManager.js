@@ -1,5 +1,6 @@
-
 import { product } from "../models/product.js";
+import fs from "fs/promises"
+
 
 export class productManager{
     constructor (){
